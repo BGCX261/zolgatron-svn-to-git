@@ -1,0 +1,47 @@
+0.0 0.0 0.25
+0.0 0.0 0.0 1.0
+
+0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+
+1 -0.2515 -1.515 0.01 0.0 0.0 0.0 1.0
+
+15.0 0.0
+1.5 0.0
+1
+
+% Format:
+% 
+% Dog Position
+% Dog Orientation (quaternion)
+% Dog Angles or Feet
+%
+% Terrain 1: id, pos, orientation
+% Terrain 2: id, pos, orientation
+% Terrain 3: id, pos, orientation
+%
+% Servo Gain Mean, Servo Gain Standard Deviation
+% Friction Mean, Friction Stanford Deviation
+% Random seed
+
+
+
+1
+0.14 0.08 -0.14
+0.09 -0.08 -0.14
+-0.09 0.08 -0.14
+-0.14 -0.08 -0.14
+
+1
+0.12 0.08 -0.13
+0.08 -0.08 -0.13
+-0.08 0.08 -0.13
+-0.12 -0.08 -0.13
+
+
+2 0.3 -0.3 0.02 0.0 0.0 0.0 1.0
+3 -0.3 -0.3 0.02 0.0 0.0 0.0 1.0
+0 0.0 0.0 0.0 0.0 0.0 1.0 0.0

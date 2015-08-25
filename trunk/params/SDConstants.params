@@ -1,0 +1,100 @@
+1e-5		# ODE World CFM
+0.55		# ODE World ERP
+0.001		# ODE Contact CFM
+0.2			# ODE Contact ERP
+0.05		# ODE Fudge Factor
+
+0.01		# ODE World Step
+1.5		# ODE Friction
+0.00000000002	# ODE Slip Factor 1
+0.00000000002	# ODE Slip Factor 2
+30.0		# ODE Servo Gain
+
+100		# ODE Contact Points
+5		# ODE Contact Ray Points
+
+0.0		# Build Pos X
+0.0		# Build Pos Y
+0.2		# Build Pos Z
+0.304		# Trunk Size X
+0.11		# Trunk Size Y
+0.103		# Trunk Size Z
+0.01		# Hip Size X
+0.01		# Hip Size Y
+0.01		# Hip Size Z
+0.021		# ULeg Size X
+0.012		# ULeg Size Y
+0.0751		# ULeg Size Z
+0.1027		# LLeg Size Z
+0.01		# Foot Radius
+
+0.101		# Hip Rx Offset X
+0.03625		# Hip Rx Offset Y
+0.0		# Hip Rx Offset Z
+0.0		# Hip Ry Offset X
+0.0236		# Hip Ry Offset Y
+0.0		# Hip Ry Offset Z
+0.0		# Knee Ry Offset X
+0.0		# Knee Ry Offset Y
+-0.0751		# Knee Ry Offset Z
+-0.021		# Foot Offset X
+0.0		# Foot Offset Y
+-0.1027		# Foot Offset Z
+
+1.703		# Hip Max Torque
+1.022		# Knee Max Torque
+
+-0.6		# Hip Rx Stop Low
+0.6		# Hip Rx Stop High
+-3.1 		# Hip Ry Stop Low (-3.5, but this is greater than pi)
+2.4		# Hip Ry Stop High
+-3.1		# Knee Ry Stop Low
+1.0		# Knee Ry Stop High
+
+2.24		# Total Mass
+
+1.9908		# Trunk Mass
+-0.0		# Trunk COM X
+0.0		# Trunk COM Y
+0.012		# Trunk COM Z
+1.625e-3	# Trunk MOI XX
+9.178e-3	# Trunk MOI YY
+8.794e-3	# Trunk MOI ZZ
+
+0.0623		# Hip Mass
+0.0		# Hip COM X
+2.934e-4	# Hip COM Y	
+0.0		# Hip COM Z
+3.694e-6	# Hip MOI XX
+1.455e-5	# Hip MOI YY
+1.467e-5	# Hip MOI ZZ
+
+0.1425		# ULeg Mass
+0.0		# ULeg COM X
+0.0013		# ULeg COM Y
+-0.021		# ULeg COM Z
+8.153e-5	# ULeg MOI XX
+8.924e-5	# ULeg MOI YY
+1.459e-5	# ULEG MOI ZZ
+
+0.0475		# LLeg Mass
+-0.019		# LLeg COM X
+0.0		# LLeg COM Y
+-0.0202		# LLeg COM Z
+3.773e-5	# LLeg MOI XX
+3.537e-5	# LLeg MOI YY
+4.177e-6	# LLeg MOI ZZ
+
+
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0

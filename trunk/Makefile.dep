@@ -1,0 +1,72 @@
+Classifier.o: Classifier.cpp Classifier.h
+SDSlowWalk.o: SDSlowWalk.cpp SDSlowWalk.h simulator/SDController.h \
+  simulator/SDLittleDog.h include/littledog/littledog.h \
+  include/littledog/bduVec3f.h include/littledog/bduVec4f.h \
+  include/littledog/bduMat3f.h simulator/SDSimulator.h include/ode/ode.h \
+  include/ode/config.h include/ode/compatibility.h include/ode/common.h \
+  include/ode/error.h include/ode/contact.h include/ode/memory.h \
+  include/ode/odemath.h include/ode/matrix.h include/ode/timer.h \
+  include/ode/rotation.h include/ode/mass.h include/ode/misc.h \
+  include/ode/objects.h include/ode/odecpp.h \
+  include/ode/collision_space.h include/ode/collision.h \
+  include/ode/collision_trimesh.h include/ode/odecpp_collision.h \
+  include/ode/export-dif.h simulator/SDTerrain.h simulator/SDConstants.h \
+  simulator/SDKinematics.h simulator/SDUtils.h \
+  include/drawstuff/drawstuff.h include/drawstuff/version.h \
+  simulator/SDConstants.h simulator/SDVectorOp.h
+aStar.o: aStar.cpp aStar.h simulator/SDLittleDog.h \
+  include/littledog/littledog.h include/littledog/bduVec3f.h \
+  include/littledog/bduVec4f.h include/littledog/bduMat3f.h \
+  simulator/SDSimulator.h include/ode/ode.h include/ode/config.h \
+  include/ode/compatibility.h include/ode/common.h include/ode/error.h \
+  include/ode/contact.h include/ode/memory.h include/ode/odemath.h \
+  include/ode/matrix.h include/ode/timer.h include/ode/rotation.h \
+  include/ode/mass.h include/ode/misc.h include/ode/objects.h \
+  include/ode/odecpp.h include/ode/collision_space.h \
+  include/ode/collision.h include/ode/collision_trimesh.h \
+  include/ode/odecpp_collision.h include/ode/export-dif.h \
+  simulator/SDTerrain.h simulator/SDConstants.h SDSlowWalk.h \
+  simulator/SDController.h simulator/SDLittleDog.h simulator/SDVectorOp.h \
+  Classifier.h
+amar_astar.o: amar_astar.cpp Classifier.h simulator/SDLittleDog.h \
+  include/littledog/littledog.h include/littledog/bduVec3f.h \
+  include/littledog/bduVec4f.h include/littledog/bduMat3f.h \
+  simulator/SDSimulator.h include/ode/ode.h include/ode/config.h \
+  include/ode/compatibility.h include/ode/common.h include/ode/error.h \
+  include/ode/contact.h include/ode/memory.h include/ode/odemath.h \
+  include/ode/matrix.h include/ode/timer.h include/ode/rotation.h \
+  include/ode/mass.h include/ode/misc.h include/ode/objects.h \
+  include/ode/odecpp.h include/ode/collision_space.h \
+  include/ode/collision.h include/ode/collision_trimesh.h \
+  include/ode/odecpp_collision.h include/ode/export-dif.h \
+  simulator/SDTerrain.h simulator/SDConstants.h SDSlowWalk.h \
+  simulator/SDController.h simulator/SDLittleDog.h simulator/SDVectorOp.h \
+  simulator/SDUtils.h include/drawstuff/drawstuff.h \
+  include/drawstuff/version.h amar_astar.h
+main.o: main.cpp simulator/SDLittleDog.h include/littledog/littledog.h \
+  include/littledog/bduVec3f.h include/littledog/bduVec4f.h \
+  include/littledog/bduMat3f.h simulator/SDSimulator.h include/ode/ode.h \
+  include/ode/config.h include/ode/compatibility.h include/ode/common.h \
+  include/ode/error.h include/ode/contact.h include/ode/memory.h \
+  include/ode/odemath.h include/ode/matrix.h include/ode/timer.h \
+  include/ode/rotation.h include/ode/mass.h include/ode/misc.h \
+  include/ode/objects.h include/ode/odecpp.h \
+  include/ode/collision_space.h include/ode/collision.h \
+  include/ode/collision_trimesh.h include/ode/odecpp_collision.h \
+  include/ode/export-dif.h simulator/SDTerrain.h simulator/SDConstants.h \
+  SDSlowWalk.h simulator/SDController.h simulator/SDLittleDog.h \
+  simulator/SDVectorOp.h Classifier.h aStar.h amar_astar.h \
+  include/drawstuff/drawstuff.h include/drawstuff/version.h
+ob.o: ob.cpp simulator/SDLittleDog.h include/littledog/littledog.h \
+  include/littledog/bduVec3f.h include/littledog/bduVec4f.h \
+  include/littledog/bduMat3f.h simulator/SDSimulator.h include/ode/ode.h \
+  include/ode/config.h include/ode/compatibility.h include/ode/common.h \
+  include/ode/error.h include/ode/contact.h include/ode/memory.h \
+  include/ode/odemath.h include/ode/matrix.h include/ode/timer.h \
+  include/ode/rotation.h include/ode/mass.h include/ode/misc.h \
+  include/ode/objects.h include/ode/odecpp.h \
+  include/ode/collision_space.h include/ode/collision.h \
+  include/ode/collision_trimesh.h include/ode/odecpp_collision.h \
+  include/ode/export-dif.h simulator/SDTerrain.h simulator/SDConstants.h \
+  SDSlowWalk.h simulator/SDController.h simulator/SDLittleDog.h \
+  simulator/SDVectorOp.h

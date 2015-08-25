@@ -1,0 +1,8 @@
+
+We have implemented A* algorithm in amar_astar.cpp
+It has different modes of execution - Training (collects training samples for the classifier)
+- Not training & no classifier (normal A* w/o any classifier)
+- Not training & use classifier (use the values saved in classifier-*.txt)
+
+Our implementation is kind of slow right now, and takes over 1 hour to run when target is at (2.75,0). We are working on fixing that, and seek conditional credit for now.
+

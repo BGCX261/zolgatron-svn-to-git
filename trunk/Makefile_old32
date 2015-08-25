@@ -1,0 +1,22 @@
+CXX = g++
+CXXFLAGS = -g -Wall -DdNODEBUG -I./include -I./include/littledog -I/. -I./simulator -D_THREAD_SAFE
+
+LDFLAGS = -L/usr/X11R6/lib -L/usr/X11/lib -L/usr/lib/X11R6 -L/usr/lib/X11 -L ./lib -lX11 -lGL -lGLU -lm -lode -ldrawstuff -lpthread ./lib/liblittledog.a
+
+OBJECTS = simulator/SDLittleDog.o simulator/SDSimulator.o simulator/SDTerrain.o simulator/SDUtils.o simulator/SDConstants.o simulator/SDKinematics.o SDSlowWalk.o Classifier.o main.o
+
+default: depend main
+
+$(OBJECTS): %.o : %.cpp
+	$(CXX) $(CXXFLAGS) -o $@ -c $<
+
+main: $(OBJECTS)
+	$(CXX) -o main $(OBJECTS) $(LDFLAGS)
+
+clean:
+	rm $(OBJECTS) main
+
+depend:
+	$(CXX) $(CXXFLAGS) -MM *.cpp> Makefile.dep
+
+include Makefile.dep
